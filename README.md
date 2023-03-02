@@ -1,3 +1,2 @@
-# go-stamp-uilib
-go library for apps:mac android ios windows
-env GOPROXY=https://goproxy.cn,direct
+#sdkdemo-mac
+demo to show how to use stamp sdk
