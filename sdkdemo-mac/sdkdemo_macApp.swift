@@ -13,8 +13,8 @@ struct sdkdemo_macApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-        }
+        }.windowStyle(HiddenTitleBarWindowStyle())
     }
 }
